@@ -6,6 +6,10 @@ A Simple Snake_Game using javascript canvas. it also allow dynamic configuration
  - CSS 3
  - Javascript
 
+## Gameplay 
+![alt tag](https://github.com/prasanaworld/Snake_Game/blob/master/SnakeGame.png)
+
+
 ## Configuration object
 **snake Object**
 
