@@ -1,15 +1,14 @@
 # Snake Game
 A Simple Snake_Game using javascript canvas. it also allow dynamic configuration of game object using JSON.
 
+## Gameplay 
+![alt tag](https://github.com/prasanaworld/Snake_Game/blob/master/SnakeGame.png)
+
 ## prerequiste
  - HTML
  - CSS 3
  - Javascript
-
-## Gameplay 
-![alt tag](https://github.com/prasanaworld/Snake_Game/blob/master/SnakeGame.png)
-
-
+ - 
 ## Configuration object
 **snake Object**
 
