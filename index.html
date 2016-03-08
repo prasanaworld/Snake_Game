@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> Snake Game</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- wrapper starts here -->
+	<div class="wrapper">
+			
+			<!-- canvas game section starts here-->
+			<div class="snake"> 
+				<canvas width="1000" height="540" id="canvas"> Browser doesnt support canvas </canvas>
+			</div>
+			<!-- canvas game section ends here-->
+
+			<!-- Scoreboard section start here -->
+			<div class="scoreboard">
+				<span> score </span> 
+				<span class="score"> 0 </span>
+			</div>
+			<!-- Scoreboard section ends here -->
+	</div>
+	<!-- wrapper starts here -->
+
+	<!-- starts sections start here -->
+	<div class="shadowLayer">
+		<a href="index.html"> <h1>  </h1></a>
+		<div class="menu">
+			<div class="sideSanke"></div>
+			<h2> Controls </h2>
+			<div class="control"></div>
+			<a class="play" tabindex="1" accesskey="s" > </a>
+		
+		</div>
+	</div>
+	<!-- starts sections ends here -->
+
+	<!-- Gameover sections start here -->
+	<div class="GameOver">
+		<h1> game over </h1>
+		<div class="gameScore"><span> Score </span> <span class="finalScore"> </span> </div>
+		<a href="index.html"> Restart </a>
+	</div>
+	<!-- Gameover sections start here -->
+
+	<!--scripts section starts here -->
+	<script src="js/script.js"></script>
+</body>
+</html>

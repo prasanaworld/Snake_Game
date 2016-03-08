@@ -1,0 +1,129 @@
+body{
+	background:url("../images/background.png") repeat;
+}
+
+.wrapper{
+	width:100%;
+	height:600px;
+	margin:60px auto 0 auto;
+	position: relative;	
+}
+
+.snake{
+	width:1004px;
+	height:540px;
+	margin:0 auto;
+	border:dotted 10px #504C4C;
+	background-color:rgba(0,0,0,0.8);
+}
+.shadowLayer, .GameOver{
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.GameOver{
+	display:none;
+	background-color: rgba(0,0,0,0.8);
+}
+.GameOver h1{
+	text-shadow: 0px 2px 7px rgba(85, 79, 79, 0.73);
+    color: #E81248;
+    font-size: 200px;
+    text-align: center;
+    text-transform: capitalize;
+ }
+ .GameOver a{
+ 	display:block;
+ 	width:200px;
+ 	padding:10px;
+ 	margin:30px auto;
+ 	text-align: center;
+ 	background-color: rgba(115, 945, 29, 0.73);
+	color: rgb(213, 196, 196);
+ 	border-radius:20px;
+ 	text-decoration: none;
+ 	font-size: 50px;
+ }
+ .GameOver span{
+	text-shadow: 0px 2px 7px rgba(252, 247, 247, 0.73);
+	color: rgb(255, 89, 89);
+	font-size: 37px;
+	text-align: center;
+ }
+ .gameScore{
+ 	width:160px;
+ 	margin:0 auto;
+ }
+ .GameOver span.finalScore{
+ 	margin-left: 0;
+ }
+
+.shadowLayer h1 {
+	width:322px;
+	height:72px;
+	margin:20px 530px;
+	background: url("../images/snakeTitle.png") no-repeat;
+	display:inline-block;
+}
+.menu{
+	width:900px;
+	margin:50px auto;
+	background-color: rgba(15,150,120,0.2);
+	overflow: auto;
+	border-radius: 50px
+}
+.control{
+	background:url("../images/controls.png") no-repeat;
+	width:139px;
+	height:110px;
+	display: inline-block;
+	margin-left:300px;
+}
+.menu h2{
+	text-shadow: 0px 2px 7px rgba(85, 79, 79, 0.73);
+    color: #E81248;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.sideSanke{
+	background:url("../images/sideSnake.png") no-repeat;
+	width:199px;
+	height:191px;
+	float:right;
+	clear:right;
+}
+.play{
+	background: url("../images/play.png") no-repeat;
+	width:142px;
+	height:110px;
+	display:inline-block;
+	margin-left: 50px;
+	cursor:pointer;
+}
+.scoreboard{
+	display:none;
+	background: url("../images/scoreboard.png") no-repeat;
+	width:172px;
+	height:64px;
+	position:absolute;
+	right: 159px;
+	top: -63px;
+}
+.scoreboard span{
+	color:white;
+	font-size: 1.5em;
+	position:absolute;
+	left: 60px;
+	bottom: 15px;
+	text-transform: capitalize;
+}
+.scoreboard span:nth-child(1):after{
+	content:":";
+}
+.scoreboard span:nth-child(2){
+	left: 138px;
+}
