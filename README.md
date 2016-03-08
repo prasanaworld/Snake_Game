@@ -8,7 +8,8 @@ A Simple Snake_Game using javascript canvas. it also allow dynamic configuration
  - HTML
  - CSS 3
  - Javascript
- - 
+
+ 
 ## Configuration object
 **snake Object**
 
