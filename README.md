@@ -6,7 +6,9 @@ A Simple Snake_Game using javascript canvas. it also allow dynamic configuration
  - CSS 3
  - Javascript
 
-## configuration
+## Configuration object
+**snake Object**
+
 ``` javascript
 {
 	x:100, // x-coordinate
@@ -17,6 +19,17 @@ A Simple Snake_Game using javascript canvas. it also allow dynamic configuration
 	d:"R"  //Direction of the snake movement
 }
 ```
+
+**Food object**
+``` javascript
+{
+	x:0,	// x-coordinate	
+	y:0,	// y-coordinate
+	w:20,	// width of food
+	h:20	// height of food
+}, 
+```
+
 ### Version
 1.0.0
 
